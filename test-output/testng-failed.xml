@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="pom_TestCases.CartPage_TestCase">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifysizecartlnktest"/>
+        </methods>
+      </class> <!-- pom_TestCases.CartPage_TestCase -->
+      <class name="pom_TestCases.ShoppingPage_TestCases">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyselectshirtlnktest"/>
+        </methods>
+      </class> <!-- pom_TestCases.ShoppingPage_TestCases -->
+      <class name="pom_TestCases.HomePage_TestCase">
+        <methods>
+          <include name="homepagevalidatelogo"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pom_TestCases.HomePage_TestCase -->
+      <class name="pom_TestCases.MyorderPage_TestCase">
+        <methods>
+          <include name="verifyplaceordertest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pom_TestCases.MyorderPage_TestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
